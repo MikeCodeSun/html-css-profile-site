@@ -424,7 +424,8 @@ section {
 .nodejs-express,
 .go-gin,
 .django,
-.java-spring {
+.java-spring,
+.rust {
   background-color: #425061;
   width: 60%;
   height: 6px;
@@ -435,6 +436,13 @@ section {
   content: "";
   background-color: green;
   width: 80%;
+  height: 6px;
+}
+.rust::before {
+  position: absolute;
+  content: "";
+  background-color: green;
+  width: 55%;
   height: 6px;
 }
 .typescript::before {
@@ -575,6 +583,7 @@ section {
   top: 55px;
   margin-bottom: 0;
   padding: 0.2rem;
+  transition: var(--transition);
 }
 .project-title {
   text-align: center;
