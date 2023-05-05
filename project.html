@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project</title>
+    <link rel="icon" type="image/jpg" href="./image/logo.jpg" />
+    <link rel="stylesheet" href="./style/normalize.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-center">
+        <div class="nav-header">
+          <div class="nav-logo">
+            <a href="/index.html"><img src="./image/logo.jpg" alt="logo" /></a>
+            <button class="btn btn-close">x</button>
+          </div>
+
+          <ul class="nav-links">
+            <li class="nav-link"><a href="/index.html">home</a></li>
+            <li class="nav-link"><a href="/blog.html">blog</a></li>
+            <li class="nav-link"><a href="/profile.html">profile</a></li>
+            <li class="nav-link"><a href="/project.html">project</a></li>
+            <li class="nav-link theme-btns">
+              <button class="btn btn-sun" onclick="changeTheme()">
+                <i class="fa-regular fa-sun"></i>
+              </button>
+              <button class="btn btn-moon active" onclick="changeTheme()">
+                <i class="fa-regular fa-moon"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav-menu">
+          <button class="btn btn-menu active">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <h3 class="title">projects</h3>
+      <div class="project-container">
+        <!-- project begin -->
+        <a href="" class="project">
+          <img src="./image/nodejs.jpg" alt="nodejs" class="project-image" />
+          <p class="project-content">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Perspiciatis sed voluptate ducimus laborum, ut hic veniam nobis
+            autem libero vel quidem sunt facere molestias? Voluptate
+            perspiciatis veritatis natus veniam dolor in asperiores aut quae,
+            corrupti sunt laborum atque ex eligendi blanditiis nihil doloremque
+            molestias expedita error ipsam modi, deserunt voluptatibus.
+          </p>
+          <div class="project-title">
+            <h4>Chat app</h4>
+            <p>nodejs</p>
+          </div>
+        </a>
+        <!-- project end -->
+        <!-- project begin -->
+        <div class="project">
+          <img src="./image/django.png" alt="project" class="project-image" />
+          <p class="project-content">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Perspiciatis sed voluptate ducimus laborum, ut hic veniam nobis
+            autem libero vel quidem sunt facere molestias? Voluptate
+            perspiciatis veritatis natus veniam dolor in asperiores aut quae,
+            corrupti sunt laborum atque ex eligendi blanditiis nihil doloremque
+            molestias expedita error ipsam modi, deserunt voluptatibus.
+          </p>
+          <div class="project-title">
+            <h4>SocialWeb app</h4>
+            <p>django</p>
+          </div>
+        </div>
+        <!-- project end -->
+        <!-- project begin -->
+        <div class="project">
+          <img src="./image/spring.png" alt="project" class="project-image" />
+          <p class="project-content">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Perspiciatis sed voluptate ducimus laborum, ut hic veniam nobis
+            autem libero vel quidem sunt facere molestias? Voluptate
+            perspiciatis veritatis natus veniam dolor in asperiores aut quae,
+            corrupti sunt laborum atque ex eligendi blanditiis nihil doloremque
+            molestias expedita error ipsam modi, deserunt voluptatibus.
+          </p>
+          <div class="project-title">
+            <h4>Shopping app</h4>
+            <p>spring</p>
+          </div>
+        </div>
+        <!-- project end -->
+        <!-- project begin -->
+        <div class="project">
+          <img src="./image/go-gin.png" alt="project" class="project-image" />
+          <p class="project-content">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Perspiciatis sed voluptate ducimus laborum, ut hic veniam nobis
+            autem libero vel quidem sunt facere molestias? Voluptate
+            perspiciatis veritatis natus veniam dolor in asperiores aut quae,
+            corrupti sunt laborum atque ex eligendi blanditiis nihil doloremque
+            molestias expedita error ipsam modi, deserunt voluptatibus.
+          </p>
+          <div class="project-title">
+            <h4>tracker app</h4>
+            <p>go-gin</p>
+          </div>
+        </div>
+        <!-- project end -->
+      </div>
+    </section>
+    <footer class="footer">
+      <p>Copyright © 2014-2023 @<a href="./index.html">Mike</a></p>
+    </footer>
+    <script src="./script/app.js"></script>
+  </body>
+</html>
